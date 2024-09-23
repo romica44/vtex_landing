@@ -1,0 +1,8 @@
+{
+  "name": "easy-landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/romica44/vtex_landing.git",
+  "author": "Romina Cattaneo",
+  "license": "MIT"
+}

@@ -1,0 +1,252 @@
+{
+    "slider-layout#products": {
+      "children": [
+        "image#brand1",
+        "image#brand2"
+      ],
+      "props": {
+        "autoplay": {
+          "timeout": 7000, 
+          "stopOnHover": true
+        },
+        "itemsPerPage": 1,
+        "fullWidth": true,
+        "showNavigation": true, 
+        "showIndicators": true,
+        "blockClass": "sliderJardin"
+      }
+    },
+    "image#brand1": {
+      "props": {
+        "src": "https://i.postimg.cc/tRZ83DLC/expojardin.png",
+        "alt": "ExpoJardin",
+        "width": "100%",
+        "max-height": "420px",
+        "blockClass": "imageBrand1"
+
+      }
+    },
+    "image#brand2": {
+      "props": {
+        "src": "https://i.postimg.cc/KjMVmvng/expojardin1.png",
+        "alt": "ExpoJardin1",
+        "width": "100%",
+        "max-height": "420px",
+        "blockClass": "imageBrand2"
+
+      }
+    },
+    "slider-layout#clubeasy": {
+      "children": [
+        "image#club"
+      ],
+      "props": {
+        "showNavigation": true, 
+        "showIndicators": true,
+        "blockClass": "sliderClubeasy" 
+      }
+    },
+    "image#club": {
+      "props": {
+        "src": "https://i.postimg.cc/43frpGTr/clubeasy.png",
+        "alt": "ClubEasy",
+        "style": {
+          "object-fit":"cover",
+          "width": "100%",
+          "height": "auto"
+        }
+      }
+    },
+    "slider-layout#auspiciantes": {
+      "children": [
+        "image#ausp1",
+        "image#ausp2",
+        "image#ausp3",
+        "image#ausp4",
+        "image#ausp5",
+        "image#ausp6",
+        "image#ausp7",
+        "image#ausp8",
+        "image#ausp9",
+        "image#ausp10",
+        "image#ausp11",
+        "image#ausp12",
+        "image#ausp13",
+        "image#ausp14",
+        "image#ausp15",
+        "image#ausp16"
+
+      ],
+      "props": {
+        "autoplay": {
+          "timeout": 7000, 
+          "stopOnHover": true
+        },
+        "itemsPerPage": 8,
+        "fullWidth": true,
+        "showNavigation": true, 
+        "showIndicators": true,
+        "blockClass": "sliderAuspiciantes"
+      }
+    },
+    "image#ausp1": {
+      "props": {
+        "src": "https://i.postimg.cc/4dPsHkNd/unicenter.png",
+        "alt": "unicenter",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp1"
+
+      }
+    },
+    "image#ausp2": {
+      "props": {
+        "src": "https://i.postimg.cc/PrRfMjbv/daewoo.png",
+        "alt": "daewoo",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp2"
+
+      }
+    },
+    "image#ausp3": {
+      "props": {
+        "src": "https://i.postimg.cc/KzxmYvbw/tramontina.png",
+        "alt": "tramontina",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp3"
+
+      }
+    },
+    "image#ausp4": {
+      "props": {
+        "src": "https://i.postimg.cc/3JJWB1PV/alba.png",
+        "alt": "alba",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp4"
+
+      }
+    },
+    "image#ausp5": {
+      "props": {
+        "src": "https://i.postimg.cc/vT8808Sf/cencopay.png",
+        "alt": "cencopay",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp5"
+
+      }
+    },
+    "image#ausp6": {
+      "props": {
+        "src": "https://i.postimg.cc/hjBt71LC/ceinhell.png",
+        "alt": "ceinhell",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp6"
+
+      }
+    },
+    "image#ausp7": {
+      "props": {
+        "src": "https://i.postimg.cc/Hk8YZh3Z/jumbo.png",
+        "alt": "jumbo",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp7"
+
+      }
+    },
+    "image#ausp8": {
+      "props": {
+        "src": "https://i.postimg.cc/6Qs9Dfm9/landiner.png",
+        "alt": "landiner",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp8"
+
+      }
+    },
+    "image#ausp9": {
+      "props": {
+        "src": "https://i.postimg.cc/zXtvPWNB/bbqgrill.png",
+        "alt": "bbqgrill",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp9"
+
+      }
+    },
+    "image#ausp10": {
+      "props": {
+        "src": "https://i.postimg.cc/8z7c85kb/bestway.png",
+        "alt": "bestway",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp10"
+
+      }
+    },
+    "image#ausp11": {
+      "props": {
+        "src": "https://i.postimg.cc/sgbX3rvC/bosco.png",
+        "alt": "bosco",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp11"
+
+      }
+    },
+    "image#ausp12": {
+      "props": {
+        "src": "https://i.postimg.cc/k5854pb6/candelaled.png",
+        "alt": "candelaled",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp12"
+
+      }
+    },
+    "image#ausp13": {
+      "props": {
+        "src": "https://i.postimg.cc/B6BQ5PNJ/cetol.png",
+        "alt": "cetol",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp13"
+
+      }
+    },
+    "image#ausp14": {
+      "props": {
+        "src": "https://i.postimg.cc/NFNsShWV/charming.png",
+        "alt": "charming",
+        "width": "100%",
+        "max-height": "50%",
+        "blockClass": "imageausp14"
+
+      }
+    },
+    "image#ausp15": {
+      "props": {
+        "src": "https://i.postimg.cc/2jTSVvVw/clorotec.png",
+        "alt": "clorotec",
+        "width": "100%",
+        "max-height": "100px",
+        "blockClass": "imageausp15"
+
+      }
+    },
+    "image#ausp16": {
+      "props": {
+        "src": "https://i.postimg.cc/zfnJ5HsT/maintenencecriadores.png",
+        "alt": "maintenencecriadores",
+        "width": "100%",
+        "max-height": "100px",
+        "blockClass": "imageausp16"
+
+      }
+    }    
+  }

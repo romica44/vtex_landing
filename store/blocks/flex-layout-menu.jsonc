@@ -1,0 +1,240 @@
+{
+    "flex-layout.row#containerEasy": {
+    "title": "ContainerEasy",
+    "props":{
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "containerEasyHeader"
+    },
+    "children": ["flex-layout.row#image"]
+  },
+
+  "flex-layout.row#image": {
+    "title": "Headerimage",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "fullWidth": true
+    },
+    "children": [
+      "image#image1"
+      // "image#image2"
+    ]
+  },
+  "image#image1":{
+    "props": {
+      "src": "https://i.postimg.cc/FKTwZ6r1/headerimage1.png",
+      "alt": "Descripción de la imagen 1",
+      "blockClass": "headerimage"
+    }
+  },
+  "image#image2":{
+    "props": {
+      "src": "https://i.ibb.co/L8P6Xrb/headerimage2.png",
+      "alt": "Descripción de la imagen 1",
+      "blockClass": "headerimage"
+    }
+  },
+    "flex-layout.row#menu": {
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center",
+        "blockClass": "menuContainer"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#websites#menu-item-blaisten",
+        "vtex.menu@2.x:menu#websites#menu-item-disco",
+        "vtex.menu@2.x:menu#websites#menu-item-jumbo",
+        "vtex.menu@2.x:menu#websites#menu-item-vea",
+        "vtex.menu@2.x:menu#websites#menu-item-tarjetacenco",
+        "vtex.menu@2.x:menu#websites#menu-item-clubeasy",
+        "vtex.menu@2.x:menu#websites#menu-item-mundoexperto",
+        "vtex.menu@2.x:menu#websites#menu-item-ventaempresa",
+        "vtex.menu@2.x:menu#websites#menu-item-contacto",
+        "vtex.menu@2.x:menu#websites#menu-item-nosotros"
+      ]
+    },
+    "vtex.menu@2.x:menu#websites#menu-item-blaisten": {
+      "props": {
+        "items": [
+          {
+            "id": "menu-item-blaisten",
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+              "type": "internal",
+              "href": "/blaisten",
+              "noFollow": false,
+              "tagTitle": "Blaisten",
+              "text": "Blaisten"
+            }
+          }
+        ]
+      }
+    },
+    "vtex.menu@2.x:menu#websites#menu-item-disco": {
+      "props": {
+        "items": [
+          {
+            "id": "menu-item-disco",
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+              "type": "internal",
+              "href": "/disco",
+              "noFollow": false,
+              "tagTitle": "Disco",
+              "text": "Disco"
+            }
+          }
+        ]
+      }
+    },
+    "vtex.menu@2.x:menu#websites#menu-item-jumbo": {
+      "props": {
+        "items": [
+          {
+            "id": "menu-item-jumbo",
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+              "type": "internal",
+              "href": "/jumbo",
+              "noFollow": false,
+              "tagTitle": "Jumbo",
+              "text": "Jumbo"
+            }
+          }
+        ]
+      }
+    },
+    "vtex.menu@2.x:menu#websites#menu-item-vea": {
+      "props": {
+        "items": [
+          {
+            "id": "menu-item-vea",
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+              "type": "internal",
+              "href": "/vea",
+              "noFollow": false,
+              "tagTitle": "Vea",
+              "text": "Vea"
+            }
+          }
+        ]
+      }
+    },
+    "vtex.menu@2.x:menu#websites#menu-item-tarjetacenco": {
+      "props": {
+        "items": [
+          {
+            "id": "menu-item-tarjetacenco",
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+              "type": "internal",
+              "href": "/tarjetacenco",
+              "noFollow": false,
+              "tagTitle": "Tarjeta Cenco",
+              "text": "Tarjeta Cenco"
+            }
+          }
+        ]
+      }
+    },
+    "vtex.menu@2.x:menu#websites#menu-item-clubeasy": {
+      "props": {
+        "items": [
+          {
+            "id": "menu-item-clubeasy",
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+              "type": "internal",
+              "href": "/clubeasy",
+              "noFollow": false,
+              "tagTitle": "Club Easy",
+              "text": "Club Easy"
+            }
+          }
+        ]
+      }
+    },
+    "vtex.menu@2.x:menu#websites#menu-item-mundoexperto": {
+      "props": {
+        "items": [
+          {
+            "id": "menu-item-mundoexperto",
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+              "type": "internal",
+              "href": "/mundoexperto",
+              "noFollow": false,
+              "tagTitle": "Mundo Experto",
+              "text": "Mundo Experto"
+            }
+          }
+        ]
+      }
+    },
+    "vtex.menu@2.x:menu#websites#menu-item-ventaempresa": {
+      "props": {
+        "items": [
+          {
+            "id": "menu-item-ventaempresa",
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+              "type": "internal",
+              "href": "/ventaempresa",
+              "noFollow": false,
+              "tagTitle": "Venta Empresa",
+              "text": "Venta Empresa"
+            }
+          }
+        ]
+      }
+    },
+    "vtex.menu@2.x:menu#websites#menu-item-contacto": {
+      "props": {
+        "items": [
+          {
+            "id": "menu-item-contacto",
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+              "type": "internal",
+              "href": "/contacto",
+              "noFollow": false,
+              "tagTitle": "Contacto",
+              "text": "Contacto"
+            }
+          }
+        ]
+      }
+    },
+    "vtex.menu@2.x:menu#websites#menu-item-nosotros": {
+      "props": {
+        "items": [
+          {
+            "id": "menu-item-nosotros",
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+              "type": "internal",
+              "href": "/nosotros",
+              "noFollow": false,
+              "tagTitle": "Nosotros",
+              "text": "Nosotros"
+            }
+          }
+        ]
+      }
+    }
+}

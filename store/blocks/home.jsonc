@@ -1,0 +1,91 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#menu",
+      "flex-layout.row#menured",
+      "slider-layout#products",
+      "rich-text",
+      "rich-text#expoeasy",
+      "flex-layout.row#media",
+      "slider-layout#clubeasy",
+      "rich-text#auspiciantes",
+      "slider-layout#auspiciantes"
+    ]
+  },
+  "rich-text": {
+    "props": {
+      "text": "¡Se viene la 5ta. Edición de la Expo Jardín con muchas novedades!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3",
+      "blockClass": "text1"
+    }
+  },
+  "rich-text#expoeasy": {
+    "props": {
+      "text": "Vení a disfrutar en familia de la 5ta. Edición de nuestra Expo Jardín, con más de 40 stands y marcas, charlas y demostración de productos. Además, este año hay nuevas sorpresas porque tendremos shows y juegos para chicos, sorteos, premios y mucho más. ¡No te la pierdas!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4",
+      "blockClass": "text2"
+    }
+  },
+  //
+
+  "flex-layout.row#media": {
+    "children": [
+      "flex-layout.col#videoContainer",
+      "flex-layout.col#textContainer"
+    ],
+    "props": {
+      "blockClass": "mediaContainer"
+    }
+  },
+  "flex-layout.col#videoContainer": {
+    "children": ["iframe#youtube"],
+    "props": {
+      "verticalAlign": "middle",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#textContainer": {
+    "children": ["rich-text#title", "rich-text#description"],
+    "props": {
+      "verticalAlign": "middle",
+      "preventHorizontalStretch": true
+    }
+  },
+  "iframe#youtube": {
+    "props": {
+      "src": "https://www.youtube.com/embed/Mig8SUFVuwQ",
+      "width": "100%",
+      "height": "300px",
+      "autoPlay": false,
+      "muted": false,
+      "loop": false,
+      "blockClass": "videoPromo"
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "text": "Expo Jardín edición 2024",
+      "font": "t-heading-5",
+      "blockClass": "eventTitle"
+    }
+  },
+  "rich-text#description": {
+    "props": {
+      "text": "Expo Jardín es un evento gratuito con muchas actividades para realizar en familia. Desde encuentros y charlas con especialistas en jardinería, hasta demostraciones prácticas y exhibiciones de productos innovadores.",
+      "font": "t-heading-5",
+      "blockClass": "evenDescription"
+    }
+  },
+  "rich-text#auspiciantes": {
+    "props": {
+      "text": "Nos acompañan",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  }
+}

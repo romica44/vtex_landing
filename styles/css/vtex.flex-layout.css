@@ -1,0 +1,69 @@
+
+.items-stretch {
+  display: none;
+}
+
+.flexRow--menuContainer {
+  background-color: black !important;
+  color: white !important; 
+  align-items: right;
+    display: flex;
+}
+
+.containerEasyHeader {
+  object-fit: cover;
+}
+
+.flexRow--mediaContainer {
+  display: flex;
+  align-items: center; 
+  margin-top: 100px
+}
+
+.eventDescription {
+  padding: 16px;
+  font-size: 16px;
+}
+.eventTitle {
+  padding: 16px;
+  font-size: 16px; 
+  font-weight: bold;
+  color: red
+}
+
+.videoPromo{
+  border-radius: 5px;
+}
+
+.flexRow--menuRed {
+  background-color: #DE0000;
+  padding: 10px 20px;
+  color: white
+}
+.logo{
+  max-height: 50px;
+}
+
+.custom-search-bar {
+  width: 100%;
+  max-width: 500px;
+}
+
+.menu{
+  color: white;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.user-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.user-actions{
+  color: white;
+}
+
+.cart-icon {
+  color: white;
+}
